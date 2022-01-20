@@ -1,4 +1,6 @@
-package ai;
+package ai.Apps;
+
+import ai.NN.NeuralNet;
 
 /**
  * 文字認識(Character Recognition)
@@ -6,11 +8,8 @@ package ai;
  *
  */
 
-// TODO:入力を0-9までにする
-// TODO:GUIによる手書き認識を実装
-// TODO:ランプ関数
-// TODO:ソフトマックス関数でワンホットベクトル
-public class CRApp09 {
+// 入力データを増やしたバージョン
+public class CRApp2 {
 
     static final int MASS_X = 6; // マス目の数（縦）
     static final int MASS_Y = 6; // マス目の数（横）
@@ -89,7 +88,7 @@ public class CRApp09 {
                         0, 1, 0, 0, 0, 0,
                         0, 1, 1, 1, 1 ,0
 
-                }
+        }
 
         };
 

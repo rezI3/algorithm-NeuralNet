@@ -1,4 +1,6 @@
-package ai;
+package ai.Apps;
+
+import ai.NN.NeuralNet;
 
 /**
  * 文字認識(Character Recognition)

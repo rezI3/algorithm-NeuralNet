@@ -1,4 +1,4 @@
-package ai;
+package ai.NN;
 
 import java.util.Random;
 
@@ -46,6 +46,7 @@ public class NeuralNet {
 				w1[i][j] = (rnd.nextDouble()*2.0 - 1.0) * 0.1;
 			}
 		}
+
 		// 1を入力した時の入力層と中間層の間の重み
 		b1 = new double[N_HIDDEN];
 
